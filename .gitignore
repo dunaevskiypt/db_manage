@@ -1,0 +1,47 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Scrapy
+.scrapy/
+spiders/__pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# Log files
+*.log
+
+# Output files (например, JSON)
+*.json
+
+# SQLite DB (если используется)
+*.sqlite
+
+# Pytest
+*.pytest_cache/
+*.coverage
+coverage.xml
+nosetests.xml
+test-*.xml
+
+# Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+Desktop.ini

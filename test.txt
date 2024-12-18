@@ -1,0 +1,8 @@
+# Подключение к базе данных
+conn = psycopg2.connect(
+    dbname="autoscraper",
+    user="postgres",
+    password="42154298Skill",
+    host="localhost",
+    port="5432"
+)
